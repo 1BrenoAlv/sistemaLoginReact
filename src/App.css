@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.containerMain {
+  font-family: "Poppins", sans-serif;
+  background-color: #eaf3ff;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.formularioLogin,
+.loginFeito {
+  background-color: #bad5ff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.formularioLogin {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+}
+
+.formularioLogin input {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.8rem;
+  border: 2px solid #1628ec;
+  border-radius: 20px;
+  transition: border-color 0.2s;
+}
+
+.formularioLogin input:focus {
+  outline: none;
+  border-color: #101758; 
+}
+
+.formularioLogin button[type='submit'] {
+  background-color: #1628ec;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.formularioLogin button[type='submit']:hover {
+  background-color: #4264ff; 
+}
+
+.mensagemErro {
+  color: red;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.loginFeito {
+  text-align: center;
+}
+
+.loginFeito h2 {
+  color: black;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.loginFeito button {
+  background-color: #1628ec; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.loginFeito button:hover {
+  background-color: #4264ff;
+}
+
+.assinatura{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
